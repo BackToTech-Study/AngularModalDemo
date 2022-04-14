@@ -19,7 +19,9 @@ import { BsModalRef, ModalModule } from 'ngx-bootstrap/modal';
     BrowserAnimationsModule,
     ModalModule.forRoot()
   ],
-  providers: [BsModalRef],
+  providers: [
+    BsModalRef
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

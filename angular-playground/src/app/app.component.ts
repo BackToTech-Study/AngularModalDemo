@@ -23,7 +23,7 @@ export class AppComponent {
   }
 
   openLoginModal() {
-    console.log("Request to open modal from button");
+    console.log("Request to open modal from app component");
     
     const initialState = {
       value: "some"
